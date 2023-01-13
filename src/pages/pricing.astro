@@ -8,24 +8,77 @@
 </head>
 <body class="bg-gray-200">
     <div class="py-8">
+        <!-- NAV BAR -->
+		<nav class="flex justify-center space-x-10 pb-10">
+			<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
+			<a href="/pricing" class="font-bold text-gray-800 hover:text-gray-900">Pricing</a>
+			<a href="/blog" class="font-medium text-gray-500 hover:text-gray-900">Blog</a>
+			<a href="/login" class="font-medium text-gray-500 hover:text-gray-900">Login</a>
+			<a href="/signup" class="font-medium text-white hover:bg-blue-600 bg-blue-500 px-3 py-2 -mt-2 rounded-lg">Sign up</a>
+		</nav>
 
-			<nav class="flex justify-center space-x-10 pb-10">
-				<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
-				<a href="/pricing" class="font-bold text-gray-800 hover:text-gray-900">Pricing</a>
-				<a href="/blog" class="font-medium text-gray-500 hover:text-gray-900">Blog</a>
-				<a href="/login" class="font-medium text-gray-500 hover:text-gray-900">Login</a>
-				<a href="/signup" class="font-medium text-white hover:bg-blue-600 bg-blue-500 px-3 py-2 -mt-2 rounded-lg">Sign up</a>
-			</nav>
+        <h1 class="mt-10 text-center text-3xl mb-10 font-extrabold tracking-tight text-gray-900">Pricing plans</h1>
 
-      <h1 class="mt-10 text-center text-3xl mb-10 font-extrabold tracking-tight text-gray-900">
-        Pricing plans
-			</h1>
+	    <div class="mt-20 mx-auto text-center max-w-3xl px-10">
+            <!-- PRICING PLANS -->
+            <div class="space-y-12 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8">
 
-			<div class="mt-20 mx-auto text-center max-w-3xl px-10">
+                <div class="p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+                    <h3 class="text-3xl font-semibold text-gray-900">Basic</h3>
+                    <p class="mt-4 mx-auto">
+                        <span class="text-5xl font-extrabold tracking-tight">$29</span>
+                        <span class="ml-1 text-xl font-semibold">/month</span>
+                    </p>
+                    <p class="mt-6 text-gray-500">The essentials</p>
+            
+                    <ul role="list" class="mt-6 space-y-6">
+                        <li class="flex">
+                            <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                            <span class="ml-3 text-gray-500 text-left">Access to our service</span>
+                        </li>
+            
+                        <li class="flex">
+                            <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                            <span class="ml-3 text-gray-500 text-left">Support</span>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+                    <h3 class="text-3xl font-semibold text-gray-900">Pro</h3>
+                    <p class="mt-4 mx-auto">
+                        <span class="text-5xl font-extrabold tracking-tight">$99</span>
+                        <span class="ml-1 text-xl font-semibold">/month</span>
+                    </p>
+                    <p class="mt-6 text-gray-500">Much more features</p>
+            
+                    <ul role="list" class="mt-6 space-y-6">
+                        <li class="flex">
+                            <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                            <span class="ml-3 text-gray-500">Access to our service</span>
+                        </li>
+            
+                        <li class="flex">
+                            <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                            <span class="ml-3 text-gray-500 text-left">Support</span>
+                        </li>
+            
+                        <li class="flex">
+                            <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                            <span class="ml-3 text-gray-500 text-left">More features</span>
+                        </li>
+                    </ul>
+                </div>
 
-       .....the page content			
+            </div>
 
-			</div>
-		</div>
-	</body>
+            <a href="#" class="bg-blue-500 text-white hover:bg-blue-600 mt-8 block w-full py-3 px-6 
+                    border border-transparent rounded-md text-center font-medium">
+                Sign up
+            </a>
+
+        </div>
+
+    </div>
+</body>
 </html>
